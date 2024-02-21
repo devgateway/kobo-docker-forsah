@@ -108,7 +108,7 @@ services:
           - nginx.internal
 
   enketo_express:
-    image: ddimunzio/enketo-express-extra-widgets-forsah:1.0
+    image: ddimunziodg/enketo-express-forsah:1.0
     env_file:
       - ../kobo-env/envfile.txt
     restart: always
