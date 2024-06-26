@@ -108,7 +108,7 @@ services:
           - nginx.internal
 
   enketo_express:
-    image: ddimunziodg/enketo-express-extra-widgets-forsah:1.0
+    image: forsah-registry.dgstg.org/forsah/docker-enketo_express-forsah:1.0
     env_file:
       - ../kobo-env/envfile.txt
     restart: always
